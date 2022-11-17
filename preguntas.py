@@ -124,7 +124,7 @@ def pregunta_03():
     # considerar valores desde 1 hasta 11 regresores para el modelo
 
     param_grid = {
-        "selectKBest__k": range(1, 11),
+        "selectKBest__k": range(1, 12),
     }
 
     # Defina una instancia de GridSearchCV con el pipeline y el diccionario de
